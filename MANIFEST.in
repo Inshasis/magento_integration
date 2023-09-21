@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include magento_integration *.css
+recursive-include magento_integration *.csv
+recursive-include magento_integration *.html
+recursive-include magento_integration *.ico
+recursive-include magento_integration *.js
+recursive-include magento_integration *.json
+recursive-include magento_integration *.md
+recursive-include magento_integration *.png
+recursive-include magento_integration *.py
+recursive-include magento_integration *.svg
+recursive-include magento_integration *.txt
+recursive-exclude magento_integration *.pyc
